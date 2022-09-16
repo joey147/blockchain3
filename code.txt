@@ -1,0 +1,90 @@
+Addresses
+Tokens
+Name Tags
+Labels 
+Websites
+
+<div class="input-group input-group-shadow">
+<div class="input-group-prepend d-none d-md-block"></div>
+<input id="txtSearchInput" type="text" class="form-control searchautocomplete ui-autocomplete-input list-unstyled
+py-3 mb-0 ui-autocomplete-loading" autocomplete="off" spellcheck="false" placeholder="Search By Address / Txn Hash / Block / Token / Ens" aria-describedby="button-header-search" name="q" onkeyup="handleSearchText(this); "maxlength="68">
+<input type="hidden" value id="hdnSearchText">
+<input type="hidden" value id="hdnSearchLabel">
+<input id="hdnIsTestNet" value="False" type="hidden">
+<div class="input-group-append">
+<button class="btn btn-primary" type="submit">
+<i class="fa fa-search"> == $0
+::before
+</i>
+</button>
+</div>
+</div>
+</form>
+
+<div class="input-group input-group-shadow">
+    <div class="input-group-prepend d-none d-md-block"></div>
+    <input id="txtSearchInput" type="text" class="form-control searchautocomplete ui-autocomplete-input list-unstyled
+    py-3 mb-0 ui-autocomplete-loading" autocomplete="off" spellcheck="false" placeholder="Search By Address / Txn Hash / Block / Token / Ens" aria-describedby="button-header-search" name="q" onkeyup="handleSearchText(this); "maxlength="68">
+    <input type="hidden" value id="hdnSearchText">
+    <input type="hidden" value id="hdnSearchLabel">
+    <input id="hdnIsTestNet" value="False" type="hidden">
+    <div class="input-group-append">
+    <button class="btn btn-primary" type="submit">
+    <i class="fa fa-search"> == $0
+    ::before
+    </i>
+    </button>
+    </div>
+    </div>
+    </form> 
+
+
+              
+
+<div class="container">
+    <div class="row" id="search">
+        <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+            <div class="form-group col-xs-9">
+                <input class="form-control" type="text" placeholder="Search" />
+            </div>
+            <div class="form-group col-xs-3">
+                <button type="submit" class="btn btn-block btn-primary">Search</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+              
+              <script>
+              function myFunction() {
+                  var input, filter, ul, li, a, i, txtValue;
+                  input = document.getElementById("myInput");
+                  filter = input.value.toUpperCase();
+                  ul = document.getElementById("myUL");
+                  li = ul.getElementsByTagName("li");
+                  for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                          li[i].style.display = "";
+                      } else {
+                          li[i].style.display = "none";
+                      }
+                  }
+              }
+              </script>
+                    
+
+
+<div class="container space-bottom-1 mt-n5">
+<div id="ContentPlaceHolder1_mainboxes" class="card mb-4">
+<div class="card-body p-4">
+<div class="row mx-gutters-md-1 align items-center">
+<div class="col-md-6 col-lg-4"></div> 
+<div class="col-md-6 col-lg-4 u-ver-divider u-ver-divider--left u-ver-divider--none-md"> </div>
+<div class="col-md-12 col-lg-4 u-ver-divider u-ver-divider--left u-ver-divider--none-lg"></div>
+</div>
+</div>
+</div>
